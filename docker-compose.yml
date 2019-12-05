@@ -4,9 +4,9 @@ services:
   app:
     image: jc21/nginx-proxy-manager-base:latest
     ports:
-      - 80:80
-      - 81:81
-      - 43:443
+      - 8990:80
+      - 8991:81
+      - 8944:443
     environment:
       - NODE_ENV=development
       - FORCE_COLOR=1
